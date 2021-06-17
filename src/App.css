@@ -51,6 +51,7 @@
   opacity: 1;
   background-color: #ffffff;
   border: 1px solid rgba(22, 76, 167, 0.6);
+  font-family: 'Noto Sans JP', sans-serif;
 }
   
 .button span {
