@@ -106,6 +106,22 @@
   }
 }  
 
+.copyright{
+  background-color: #2b354f;
+  padding: 23px 0;
+}
+
+.copyright p{
+  text-align: center;
+  color: #fff;
+}
+
+.copyright p a{
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+
 @media only screen and (max-width: 600px) {
   .card {
       width: 70%;

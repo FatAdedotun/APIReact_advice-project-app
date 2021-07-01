@@ -28,14 +28,21 @@ class App extends React.Component {
     const { advice } = this.state;
 
     return (
-      <div className="app">
-        <div className="card">
-          <h1 className="heading">{advice}</h1>
-          <button className="button" onClick={this.fetchAdvice}>
-            <span>ADVICE ME PLS</span>
-          </button>
+      <>
+        <div className="app">
+          <div className="card">
+            <h1 className="heading">{advice}</h1>
+            <button className="button" onClick={this.fetchAdvice}>
+              <span>ADVICE ME PLS</span>
+            </button>
+          </div>
         </div>
-      </div>
+        <div className="copyright">
+        <p>
+            Made by <a href="https://fatadedotun.netlify.app/">Adedotun Fatokun.</a> All rights reserved &copy; 2021.
+        </p>   
+    </div>
+      </>
     );
   }
 }
